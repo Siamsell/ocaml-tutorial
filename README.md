@@ -20,4 +20,4 @@ Site éducatif pour apprendre OCaml avec des tutoriels, exercices et corrections
 ## Développement
 Clonez le repo :
 ```bash
-git clone https://github.com/votrenom/ocaml-tutorial.git
+git clone https://github.com/siamsell/ocaml-tutorial.git
