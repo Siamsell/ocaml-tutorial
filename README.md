@@ -54,7 +54,7 @@
 -  **Recherche rapide** dans le contenu
 
 ---
-
+<p align="center"> <em>✨ La programmation fonctionnelle n'a jamais été aussi belle ✨</em> </p><p align="center"> <img src="https://img.shields.io/badge/Made%20with-❤️-ff69b4" alt="Made with love"> <img src="https://img.shields.io/badge/Pour-les%20étudiants%20OCaml-8a0d36" alt="Pour les étudiants"> </p>
 ##  **Démarrage Rapide**
 
 ###  **Accéder en ligne** (Recommandé)
