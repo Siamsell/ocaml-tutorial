@@ -8,9 +8,6 @@
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
 </p>
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/OCaml_logo.svg/1200px-OCaml_logo.svg.png" width="200" alt="OCaml Logo">
-</p>
 
 ##  **Explorez le Monde Magique d'OCaml**
 
