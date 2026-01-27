@@ -13,7 +13,7 @@
   <img src="https://raw.githubusercontent.com/ocaml/ocaml.org/main/images/colour-logo.svg" width="200" alt="OCaml Logo">
 </p>
 
-## ✨ **Explorez le Monde Magique d'OCaml**
+##  **Explorez le Monde Magique d'OCaml**
 
 <div align="center">
   
@@ -41,13 +41,13 @@
 
 
 
-### 📖 **Contenu Richesse**
+###  **Contenu Richesse**
 - **100+ exemples** de code commentés
 -  **40+ exercices** progressifs
 - **Solutions détaillées** avec explications
 -  **PDF téléchargeables** pour travailler hors ligne
 
-### 🛠 **Outils Pédagogiques**
+###  **Outils Pédagogiques**
 -  **Éditeur virtuel** intégré
 -  **Exercices interactifs**
 -  **Progression sauvegardée**
@@ -55,7 +55,7 @@
 
 ---
 <p align="center"> <em>✨ La programmation fonctionnelle n'a jamais été aussi belle ✨</em> </p><p align="center"> <img src="https://img.shields.io/badge/Made%20with-❤️-ff69b4" alt="Made with love"> <img src="https://img.shields.io/badge/Pour-les%20étudiants%20OCaml-8a0d36" alt="Pour les étudiants"> </p>
-##  **Démarrage Rapide**
+
 
 ###  **Accéder en ligne** (Recommandé)
 ```bash
