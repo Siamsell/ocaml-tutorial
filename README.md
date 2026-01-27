@@ -23,26 +23,22 @@
 
 ## **Ce que vous allez découvrir**
 
-| Section | Description | Niveau |
-|---------|-------------|-----------|
-| **Introduction** | Bases d'OCaml et installation | Débutant |
-| **Types & Opérateurs** | Types de base et opérations | Débutant |
-| **Fonctions** | Programmation fonctionnelle | Intermédiaire |
-| **Récursivité** | Récursion et pattern matching | Intermédiaire |
-| **Listes** | Manipulation des listes | Avancé |
-| **Arbres Binaires** | Structures de données complexes | Expert |
-| **Exercices** | 4 séries complètes avec solutions | Tous niveaux |
-| **Casse-têtes** | Défis pour les champions | Expert |
+| Section | Description |
+|---------|-------------|
+| **Introduction** | Bases d'OCaml et installation |
+| **Types & Opérateurs** | Types de base et opérations |
+| **Fonctions** | Programmation fonctionnelle |
+| **Récursivité** | Récursion et pattern matching |
+| **Listes** | Manipulation des listes |
+| **Arbres Binaires** | Structures de données complexes |
+| **Exercices** | 4 séries complètes avec solutions | 
+| **Casse-têtes** | Défis pour les champions | 
 
 ---
 
 ## **Fonctionnalités Élégantes**
 
-### **Design Premium**
-- **Mode clair/sombre** automatique
-- **Palette de couleurs** soigneusement choisie
-- **Design responsive** adapté à tous les écrans
-- **Animations fluides** et élégantes
+
 
 ### **Contenu Richesse**
 - **100+ exemples** de code commentés
@@ -96,26 +92,6 @@ sudo apt install ocaml opam
 
 ---
 
-## **Structure du Projet**
-
-```
-ocaml-tutorial/
-├── index.html              # Page principale
-├── css/
-│   └── style.css          # Styles élégants
-├── js/
-│   └── main.js            # Logique interactive
-├── pdf/                   # Ressources téléchargeables
-│   ├── serie1.pdf
-│   ├── serie2.pdf
-│   └── ...
-├── images/                # Illustrations et logos
-│   ├── ocaml-logo.svg
-│   └── screenshots/
-└── README.md              # Ce fichier
-```
-
----
 
 ## **Aperçu des Chapitres**
 
@@ -205,20 +181,7 @@ git push origin feature/amazing-feature
 
 ---
 
-## **Pourquoi Choisir Ce Guide ?**
 
-<div align="center">
-
-| Fonctionnalité | Notre Guide | Autres Ressources |
-|----------------|-------------|-------------------|
-| **Design Moderne** | ✅ | ❌ |
-| **Mode Sombre** | ✅ | ❌ |
-| **Mobile First** | ✅ | ⚠️ |
-| **Exercices Interactifs** | ✅ | ❌ |
-| **PDF Téléchargeables** | ✅ | ❌ |
-| **Interface Ludique** | ✅ | ❌ |
-
-</div>
 
 ---
 
@@ -248,7 +211,7 @@ git push origin feature/amazing-feature
 
 ---
 
-**Si ce projet vous aide, n'oubliez pas de mettre une étoile !**
+**Si ce projet vous aide, n'oubliez pas de mettre une étoile **
 
 </div>
 
