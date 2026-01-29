@@ -1,0 +1,10 @@
+
+User-agent: *
+Allow: /
+
+# Bloquer l'accès aux fichiers techniques (optionnel)
+Disallow: /css/
+Disallow: /js/
+Disallow: *.js$
+
+Sitemap: https://siamsell.github.io/ocaml-tutorial/sitemap.xml
