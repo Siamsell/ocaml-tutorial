@@ -1756,6 +1756,82 @@ let max_arbre_term a =
                 `
             },
             {
+    title: "Erreurs de Récursivité Infinie (Stack Overflow)",
+    content: `
+        <div class="error-example">
+            <strong>Stack Overflow => la fameuse boucle infinie :</strong>
+            <p><em>Stack overflow during evaluation (looping recursion?).</em></p>
+            <p>Autrement dit vous obtenez une boucle infinie !<br>
+            L'ordinateur ne sait pas quand il doit s'arrêter !</p>
+        </div>
+        
+        <div class="error-example">
+            <strong>Exemple :</strong>
+            <p>On souhaite une fonction qui calcule la somme des entiers naturels de 1 à x :</p>
+            <pre><code>let rec f x = x + f (x - 1);;  (* Cette fonction n'est pas valide ! *)</code></pre>
+            <p>Dans l'interpréteur :</p>
+            <pre><code># let rec f x = x + f (x - 1);;
+val f : int -> int = &lt;fun&gt;
+# f 10 ;;
+Stack overflow during evaluation (looping recursion?).</code></pre>
+            <p>Ici, la condition d'arrêt a été oubliée. Le code correct est :</p>
+            <pre><code>let rec f x = if x = 0 then 0 else x + f (x - 1);;</code></pre>
+            <p>Dans l'interpréteur :</p>
+            <pre><code># let rec f x = if x = 0 then 0 else x + f (x - 1);;
+val f : int -> int = &lt;fun&gt;
+# f 10 ;;
+- : int = 55</code></pre>
+        </div>
+        
+        <div class="warning">
+            <strong>⚠️ TRÈS IMPORTANT :</strong>
+            <p>L'interpréteur OCaml stoppe le programme et affiche l'erreur !<br>
+            Cependant, d'autres langages continuent à faire tourner le programme dans la boucle infinie, ce qui peut endommager votre système si celle-ci reste active trop longtemps !</p>
+            <p>Les données créées à l'infini vont effectuer un dépassement de mémoire et risquent d'être 'sauvegardées' par dessus des données plus importantes, comme par exemple les données gérant le système d'exploitation de votre ordinateur !</p>
+            <p><strong>Vérifiez toujours que votre condition d'arrêt est bien présente dans votre fonction récursive !</strong></p>
+        </div>
+    `
+},
+{
+    title: "Erreur : Unbound Constructor",
+    content: `
+        <div class="error-example">
+            <strong>Unbound constructor => Constructeur Inconnu :</strong>
+            <p><em>Error: Unbound constructor [un constructeur]</em></p>
+        </div>
+        
+        <div class="error-example">
+            <strong>Exemple :</strong>
+            <pre><code>let f x = if x = 0 then O else x;;
+Error: Unbound constructor O</code></pre>
+            <p>Ici l'erreur est due à une faute de frappe.<br>
+            L'utilisateur a écrit <code>'O'</code> (lettre O majuscule) au lieu de <code>'0'</code> (zéro) !</p>
+            <p><strong>Solution :</strong> Vérifiez attentivement l'orthographe des constructeurs et des constantes.</p>
+            
+            <p><strong>Autres exemples courants :</strong></p>
+            <pre><code>(* Erreur : True au lieu de true *)
+let b = True;;  (* Error: Unbound constructor True *)
+
+(* Erreur : False au lieu de false *)
+let b = False;;  (* Error: Unbound constructor False *)
+
+(* Erreur : constructeur mal écrit *)
+type jour = Lundi | Mardi | Mercredi;;
+let j = Lundy;;  (* Error: Unbound constructor Lundy *)</code></pre>
+        </div>
+        
+        <div class="note">
+            <strong>Rappel :</strong>
+            <ul>
+                <li>Les constructeurs de types commencent par une majuscule (ex: <code>Some</code>, <code>None</code>)</li>
+                <li>Les constantes booléennes sont en minuscules (<code>true</code>, <code>false</code>)</li>
+                <li>Les nombres commencent par un chiffre</li>
+                <li>Lorsque vous définissez un type, vérifiez que vous utilisez les bons noms de constructeurs</li>
+            </ul>
+        </div>
+    `
+},
+            {
                 title: "Erreurs courantes",
                 content: `
                     <div class="error-example">
@@ -3334,6 +3410,7 @@ function loadUserPreferences() {
 // Initialisation
 
 document.addEventListener('DOMContentLoaded', loadUserPreferences);
+
 
 
 
