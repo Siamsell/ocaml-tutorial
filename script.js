@@ -2159,7 +2159,7 @@ let rec parcours_suffixe arbre =
                     </div>
                     <p class="pdf-description">Fonctions et applications</p>
                     <div class="pdf-links">
-                        <a href="pdf/serie2.pdf" class="pdf-link" download>
+                        <a href="https://siamsell.github.io/ocaml-tutorial/pdf/serie2.pdf" class="pdf-link" download>
                             <span class="pdf-icon"></span>
                             <span>Télécharger le PDF</span>
                         </a>
@@ -3334,6 +3334,7 @@ function loadUserPreferences() {
 // Initialisation
 
 document.addEventListener('DOMContentLoaded', loadUserPreferences);
+
 
 
 
