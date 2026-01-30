@@ -2174,7 +2174,7 @@ let rec parcours_suffixe arbre =
                     </div>
                     <p class="pdf-description">Listes et nombres rationnels</p>
                     <div class="pdf-links">
-                        <a href="https://siamsell.github.io/ocaml-tutorial/pdf/serie3" class="pdf-link" download>
+                        <a href="./pdf/serie3" class="pdf-link" download>
                             <span class="pdf-icon"></span>
                             <span>Télécharger le PDF</span>
                         </a>
@@ -3334,3 +3334,4 @@ function loadUserPreferences() {
 // Initialisation
 
 document.addEventListener('DOMContentLoaded', loadUserPreferences);
+
