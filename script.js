@@ -2159,7 +2159,7 @@ let rec parcours_suffixe arbre =
                     </div>
                     <p class="pdf-description">Fonctions et applications</p>
                     <div class="pdf-links">
-                        <a href="pdf/serie2.pdf" class="pdf-link" download>
+                        <a href="pdf/Serie2.pdf" class="pdf-link" download>
                             <span class="pdf-icon"></span>
                             <span>Télécharger le PDF</span>
                         </a>
@@ -2174,7 +2174,7 @@ let rec parcours_suffixe arbre =
                     </div>
                     <p class="pdf-description">Listes et nombres rationnels</p>
                     <div class="pdf-links">
-                        <a href="./pdf/serie3" class="pdf-link" download>
+                        <a href="pdf/Serie3" class="pdf-link" download>
                             <span class="pdf-icon"></span>
                             <span>Télécharger le PDF</span>
                         </a>
@@ -2189,7 +2189,7 @@ let rec parcours_suffixe arbre =
                     </div>
                     <p class="pdf-description">Types personnalisés et arbres binaires</p>
                     <div class="pdf-links">
-                        <a href="pdf/serie4.pdf" class="pdf-link" download>
+                        <a href="pdf/Serie4.pdf" class="pdf-link" download>
                             <span class="pdf-icon"></span>
                             <span>Télécharger le PDF</span>
                         </a>
@@ -2203,7 +2203,7 @@ let rec parcours_suffixe arbre =
                     </div>
                     <p class="pdf-description">paradigme logique</p>
                     <div class="pdf-links">
-                        <a href="pdf/serie5et6.pdf" class="pdf-link" download>
+                        <a href="pdf/Serie5et6.pdf" class="pdf-link" download>
                             <span class="pdf-icon"></span>
                             <span>Télécharger le PDF</span>
                         </a>
@@ -3334,6 +3334,7 @@ function loadUserPreferences() {
 // Initialisation
 
 document.addEventListener('DOMContentLoaded', loadUserPreferences);
+
 
 
 
