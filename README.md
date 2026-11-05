@@ -12,28 +12,13 @@
 
 <div align="center">
 
-🌐 **[Accéder au site →](https://siamsell.github.io/ocaml-tutorial/)**
+ **[Accéder au site →](https://siamsell.github.io/ocaml-tutorial/)**
 
 *Un clic suffit pour commencer votre apprentissage d'OCaml !*
 
 </div>
 
----
 
-##  Ce que vous allez découvrir
-
-| Section | Description |
-|:---|:---|
-| **Introduction** | Découverte du langage OCaml et installation |
-| **Types et opérateurs** | Types de données fondamentaux et opérations |
-| **Fonctions** | Principes de la programmation fonctionnelle |
-| **Récursivité** | Fonctions récursives et filtrage par motifs (Pattern Matching) |
-| **Listes** | Création et manipulation des listes |
-| **Arbres binaires** | Découverte des structures de données arborescentes |
-| **Exercices** | Quatre séries d'exercices avec leurs solutions |
-| **Casse-têtes** | Défis et problèmes pour approfondir vos connaissances |
-
----
 
 ##  Fonctionnalités principales
 
@@ -44,7 +29,7 @@
 - **Solutions détaillées** accompagnées d'explications.
 - **Documents PDF téléchargeables** pour apprendre hors ligne.
 
-### 🛠️ Des outils pédagogiques interactifs
+### Des outils pédagogiques interactifs
 
 - Éditeur de code virtuel intégré.
 - Exercices interactifs.
