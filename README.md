@@ -10,12 +10,11 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
 </p>
 
-## **Explorez le Monde Magique d'OCaml**
 
 <div align="center">
   
 🌐 **[Accéder au Site →](https://siamsell.github.io/ocaml-tutorial/)**  
-*Un clic suffit pour commencer votre voyage OCaml !*
+*Un clic suffit pour commencer votre voyage OCaml *
 
 </div>
 
@@ -36,8 +35,6 @@
 
 ---
 
-## **Fonctionnalités Élégantes**
-
 
 
 ### **Contenu Richesse**
@@ -54,7 +51,6 @@
 
 ---
 
-## **Démarrage Rapide**
 
 ### **Accéder en ligne** (Recommandé)
 ```bash
@@ -110,7 +106,7 @@ sudo apt install ocaml opam
 
 ---
 
-## **Essayez OCaml Maintenant !**
+## **Essayez OCaml\**
 
 ```ocaml
 (* Exemple interactif - Testez directement ! *)
@@ -145,19 +141,6 @@ Nous adorons les contributions ! Voici comment aider :
 3. **Corriger une erreur** – Pull requests bienvenues
 4. **Améliorer la documentation** – Aidez les futurs étudiants
 
-**Workflow de contribution :**
-```bash
-# 1. Fork le projet
-# 2. Créez une branche
-git checkout -b feature/amazing-feature
-
-# 3. Commitez vos changements
-git commit -m 'Add some amazing feature'
-
-# 4. Poussez sur la branche
-git push origin feature/amazing-feature
-
-# 5. Ouvrez une Pull Request
 ```
 
 ---
@@ -184,34 +167,7 @@ git push origin feature/amazing-feature
 
 
 ---
-
-## **Contact & Support**
-
-<p align="center">
-  <a href="https://github.com/siamsell/ocaml-tutorial/issues">
-    <img src="https://img.shields.io/badge/-Signaler_un_problème-red" alt="Issues">
-  </a>
-  <a href="https://github.com/siamsell">
-    <img src="https://img.shields.io/badge/-Auteur-blue" alt="Auteur">
-  </a>
-  <a href="https://siamsell.github.io/ocaml-tutorial/">
-    <img src="https://img.shields.io/badge/-Visiter_le_Site-green" alt="Site">
-  </a>
-</p>
-
----
-
-## **License & Crédits**
-
-<div align="center">
-
-**Basé sur les enseignements de M. Chabani (UMBB)**  
-**Développé avec passion pour la communauté OCaml**  
-**Hébergé gratuitement sur GitHub Pages**
-
----
-
-**Si ce projet vous aide, n'oubliez pas de mettre une étoile **
+*
 
 </div>
 
