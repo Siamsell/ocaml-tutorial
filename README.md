@@ -162,12 +162,8 @@ Nous adorons les contributions ! Voici comment aider :
 - [Coursera: Functional Programming in OCaml](https://www.coursera.org/)
 - [France-IOI: Programmation en OCaml](https://www.france-ioi.org/)
 
----
 
 
-
----
-*
 
 </div>
 
