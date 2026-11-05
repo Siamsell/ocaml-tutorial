@@ -20,7 +20,7 @@
 
 ---
 
-## 📚 Ce que vous allez découvrir
+##  Ce que vous allez découvrir
 
 | Section | Description |
 |:---|:---|
@@ -35,9 +35,9 @@
 
 ---
 
-## ✨ Fonctionnalités principales
+##  Fonctionnalités principales
 
-### 📖 Un contenu riche et pédagogique
+###  Un contenu riche et pédagogique
 
 - **100+ exemples** de code commentés.
 - **40+ exercices** de difficulté progressive.
@@ -53,7 +53,7 @@
 
 ---
 
-## 🚀 Installation et utilisation
+##  Installation et utilisation
 
 ### Accès en ligne (recommandé)
 
@@ -111,51 +111,22 @@ sudo apt install ocaml opam
 
 ---
 
-## 📋 Aperçu des chapitres
 
-| Chapitre | Concept OCaml | Exemple |
-|:---:|:---|:---|
-| **1** | Variables et types | `let x = 42;;` |
-| **2** | Fonctions | `let carre x = x * x;;` |
-| **3** | Récursivité | `let rec fact n = ...` |
-| **4** | Listes | `[1; 2; 3] @ [4; 5]` |
-| **5** | Pattern Matching | `match x with \| A -> ...` |
-| **6** | Arbres | `type 'a arbre = ...` |
+
 
 ---
 
-## 💻 Essayez OCaml !
-
-Voici un petit exemple pour découvrir la syntaxe d'OCaml :
-
-```ocaml
-(* Exemple : une fonction de bienvenue *)
-
-let bonjour nom =
-  Printf.printf "Bonjour %s, bienvenue en OCaml !\n" nom;;
-
-(* Appel de la fonction *)
-bonjour "Étudiant";;
-
-(* Résultat :
-   Bonjour Étudiant, bienvenue en OCaml !
-*)
-```
-
----
-
-## 📊 Statistiques du site
+##  Statistiques du site
 
 <p align="center">
   <img src="https://img.shields.io/badge/Pages-12+-blue" alt="Pages">
   <img src="https://img.shields.io/badge/Exercices-40+-orange" alt="Exercices">
-  <img src="https://img.shields.io/badge/Lignes_de_code-5000+-green" alt="Lignes de code">
   <img src="https://img.shields.io/badge/PDF-6+-red" alt="PDF">
 </p>
 
 ---
 
-## 🤝 Contribuer au projet
+##  Contribuer au projet
 
 Les contributions sont les bienvenues ! Vous pouvez participer à l'amélioration du projet de plusieurs façons :
 
@@ -166,7 +137,7 @@ Les contributions sont les bienvenues ! Vous pouvez participer à l'amélioratio
 
 ---
 
-## 📚 Ressources complémentaires
+## Ressources complémentaires
 
 ### Liens utiles
 
@@ -199,6 +170,4 @@ Les contributions sont les bienvenues ! Vous pouvez participer à l'amélioratio
 
 ---
 
-<p align="center">
-  <strong>OCaml Facile</strong> · Apprendre, pratiquer et progresser.
-</p>
+
